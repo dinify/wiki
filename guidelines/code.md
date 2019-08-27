@@ -1,0 +1,2 @@
+## Goal
+This page should document all coding style guidelines that apply to our codebase. Some of these rules are inherently dictated by a linter, the rules of which should be versioned in the artifacts repository.
