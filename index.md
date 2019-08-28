@@ -3,6 +3,7 @@
 Welcome to the wiki, this repository serves as a central source of information within the team. All documentation of our research, knowledge. Refer to [guidelines/wiki](./guidelines/wiki.md) how to contribute.
 ## Table of contents
 _TODO: use github pages to generate a styled version of all the markdown pages. The table of contents will become a convenient navigation header in the html output._
+
 |  |  |
 |--|--|
 | _(this page)_ | [index](./index.md) |
