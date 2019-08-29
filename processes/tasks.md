@@ -1,8 +1,13 @@
 ## Intro
-No need to reinvent project management. SCRUM is the industry standard for software developer teams. 
+No need to reinvent project management. SCRUM is the industry standard for software developer teams.
+
+LV: Although SCRUM is the industry standard, it's just a set of habits and routines, not the holy bible of project management, and especially in our case where *self-management* is required, we have to come up with additional layer of processes to cover our specific needs, such as evaluation of each task at the end of the week by:
+- if done: by level of relation to the goal of the sprint 
+- if not done: by severity of delay caused (as John proposed)
+so we can reflect on plan and its execution, and continuously build up the skill of prioritization and focus
 
 ## Definition
-A task can be defined as a peice of work that can be assigned to one or more people within the team.
+A task can be defined as a piece of work that can be assigned to one or more people within the team.
 
 ## Tools
 **Trello.**  
