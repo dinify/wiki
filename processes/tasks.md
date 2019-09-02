@@ -27,6 +27,9 @@ General examples of a task include:
 **Step 2. Open Trello.**  
 Either in the app on your phone or on trello.com/dinify
 
+**Step 3. Search existing tasks.**  
+In the top search bar, search for any of the keywords that are related to the task about to be created. Make sure that the new task being created is not a duplicate of an already existing task. If it already exists, the priority may be modified, or a comment be made where the need to fulfill that task occured.
+
 **Step 4. Categorize.**  
 As you can see, there are three boards in Trello: Backend, Frontend and Business. If the task is not related to either of these, discuss with the team to create a new board that is the most general category for the task. Choose the board that the task is related to.
 
