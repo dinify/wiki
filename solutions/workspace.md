@@ -13,10 +13,49 @@ In order to share some of the frontend code, the `@dinify/common` package was cr
 @dinify/waiterboard
 ```
 
-## Stack
-[Lerna](https://github.com/lerna/lerna), [Yarn](https://yarnpkg.com/lang/en/)
-[Node version manager](https://github.com/nvm-sh/nvm) (`nvm`)
+### New proposed packages
+Reusable, mostly dumb and stateless view layer components.
+```
+@dinify/components
+```
+Documentation for the Dinify platform.
+```
+@dinify/docs
+```
+Common utility functions, libraries, and code that is not specific to any of the products. Migrate and split `@dinify/common` into `core` and `components`. No dependency on react or any browser context specific stuff.
+```
+@dinify/core
+```
+Typescript tpye definitions, module definitions, interfaces, and so on.
+```
+@dinify/types
+```
+
+## Current solution
+### Stack
+[Lerna](https://github.com/lerna/lerna)  
+[Yarn](https://yarnpkg.com/lang/en/) (using yarn workspaces)  
+[Node version manager](https://github.com/nvm-sh/nvm) (`nvm`)  
 Node
+### Description
+All clientside code has been moved to a single folder, in a single [workspace repository](https://gitlab.com/dinify/workspace). Prefixing with the package name (like `App: commit message`) in git commits have been introduced to try to organize changes.
+
+## Other proposed solutions
+1. Using `git+ssh` or `git+https` prefix in `package.json` dependencies
+```json
+"@dinify/app": "git+ssh://git@gitlab.com:dinify/packages/app.git"
+```
+2. Using bultin npm GitLab integration
+```bash
+npm install gitlab:gitlabname/gitlabrepo[#commit-ish]
+```
+3. Using `npm` to publish packages to a registry, such as npm private registry or GitHub package registry.
+
+
+## Imports
+### Design goals
+Any ES6 or typescript module should be able to import from the `@dinify` workspace, without having to rebuild any of the packages. All imports within a single package should be able to be configured using the `baseUrl` attribute in 
+`tsconfig.json` in the package directory. The `tsconfig.json` the in workspace root should point all packages to the `src` directory by default.
 
 ## Common problems
 ### Import error: Module not found
