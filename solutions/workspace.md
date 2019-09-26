@@ -93,6 +93,10 @@ nvm use 10
 ```
 
 ### Trusted local certificate on OSX
+**Simple and fast:** open the page in Safari, then expand the warning panel about the certificate, and click "visit this website". Since Safari is better integrated with the OS, there is an auth prompt as soon as you visit the site and it automatically adds the certificate to your keychain.
+
+**Manual**  
+
 1. Run from workspace root directory
 ```
 open node_modules/webpack-dev-server/ssl
