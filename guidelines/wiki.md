@@ -1,5 +1,10 @@
 # Wiki
 _guidelines_
+
+## Good example
+Here is a very good example of a wiki done by the GitLab team.
+https://about.gitlab.com/direction/
+
 ## Structure
 ### Introduction
 The wiki itself is comprised of multiple (not exclusively) markdown files organized into and arbitraty hierarchy of folders. Each markdown file is considered to be a **page**. Pages are composed of **sections**, and each section and their content must conform to the guidelines agreed upon in this page.
