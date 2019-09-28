@@ -6,6 +6,7 @@ so we can reflect on plan and its execution, and continuously build up the skill
 
 ## Definition
 A task can be defined as a piece of work that can be assigned to one or more people within the team.
+Maximum size of a task is determined by estimated time of completion, which should not be larger than one man-day.
 
 ## Tools
 **Trello.**  
