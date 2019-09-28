@@ -25,6 +25,10 @@ See data:
 Two fields for name: first and last is not true for all locales. Some locales only have one character as last name, or they use their father’s name as their last name, so it’s better to include a single field for name which they can fill out however they want. (It allows for more flexibility).
 
 # Existing solutions
-https://github.com/unicode-org/cldr
-https://github.com/unicode-org/icu
-https://rtlcss.com/index.html
+https://github.com/phensley/cldr-engine  
+* Demo: https://phensley.github.io/cldr-engine-react-demo/
+* Benchmarks: https://github.com/phensley/cldr-bakeoff  
+
+https://github.com/unicode-org/cldr  
+https://github.com/unicode-org/icu  
+https://rtlcss.com/index.html  
