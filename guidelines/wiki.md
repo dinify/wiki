@@ -41,7 +41,8 @@ The sections within a page each have a type. Since this wiki repository will be 
 Use passive voice where possible. 
 Avoid the use of "us", "we" and other pronouns that refer to a person or the team. Task management tools are there to mitigate responsabilities. Refer to (processes/tasks)[../processes/tasks.md] for which tools are used for task management.
 #### Terms
-A collection of terms that list how pages in the wiki might be worded.
+It is important to use a given term correctly, and refer to the wikipedia or other accredited and / or well-cited source of information. For example, to cover aspects of our solutions to internatinalization and localization, refer to the [original wikipedia article](https://en.wikipedia.org/wiki/Internationalization_and_localization) covering the aspect of the topic. 
+There is also a collection of internal use terms that list how pages in the wiki might be worded.
 
 The business  
 The team  

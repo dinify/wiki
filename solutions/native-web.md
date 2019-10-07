@@ -34,6 +34,12 @@ More efficient i18n and l10n with CLDR data
 Quadratic gradient scrims  
 Keyboard avoiding view  
 Recycler view  
+Dark and light theme detection  
+Integration with iOS settings and other iOS features  
+Web Share API  
+Web Notifications API  
+Payment Request API  
+Credential Management API  
 
 ### Cross platform native components
 Bottom navigation / tab bar  

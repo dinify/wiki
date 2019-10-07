@@ -52,6 +52,7 @@ All code is hosted here, on gitlab. Any code hosted outside of gitlab must be li
 ### Definition
 _(source: [dpci.com](https://www.dpci.com/insights/taxonomy-vs-metadata))_
 >Taxonomy (...) is the science of classification according to a pre-determined system with the resulting catalog used to provide a conceptual framework for discussion, analysis, or information retrieval.
+Learn more: https://increment.com/internationalization/programming-as-translation/
 
 ### Example
 Here is an example of how a taxonomic database looks like:
