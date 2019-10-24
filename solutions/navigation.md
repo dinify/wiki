@@ -19,6 +19,11 @@ The term "page" usually occurs within a web context, because it's scrolling veri
 
 ### Screen
 A "screen" is directly referring to the user's entire screen space, meaning that there is no UI surrounding it within the bounds of the hardware. All components within a screen do not react to touch or gestures by default, and those child components have to explicitly declare their behavior, including scolling behavior.  
+Native apps use the operating system's built in functionality to deliver a familiar user experience, such as:
+- pull to refresh
+- persisted screen state (scroll position, ui controls, etc.)
+- navigation gestures
+- animation of the header component and transitions between screens
   
 _Screen header:_ Also known as navigation header, navigation bar, navbar, and probably many other things. This is the rectangle at the top of the screen that contains the back button and the title for the screen.   
 * **iOS** — _Navigation bar_  
