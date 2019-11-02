@@ -4,7 +4,8 @@ Overall desired result is to make our react frontends a feel more native on the 
 
 ## Terms
 Progressive Web App (PWA)  
-REPL pattern  
+PRPL pattern  
+App Shell model  
 
 ## Tools
 **Lighthouse**: PWA benchmarking tool  
@@ -40,6 +41,7 @@ Web Share API
 Web Notifications API  
 Payment Request API  
 Credential Management API  
+Page Lifecycle API
 
 ### Cross platform native components
 Bottom navigation / tab bar  

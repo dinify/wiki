@@ -33,6 +33,17 @@ Merge business logic, documentation, and other sources of information into a cen
 ### Domains
 `dinify.app` is the production domain.
 `dinify.dev` is the staging domain. Any subdomain created on these domains will need to use a slug formatted version for any resource.
+0. Commercial TLD: dinify.com (offer was $20 - 30K)
+1. Regional TLDs:
+dinify.eu, dinify.us, etc...
+2. Localized TLDs:
+dinify.cz, dinify.it, etc..
+3. URL shortening domains
+own domain: dnfy.to, dnfy.co, dnfy.link
+managed: dinify.page.link, dinify.app.link
+4. CDN domains
+dstatic.com, dinifycontent.com
+
 ### Products
 ### Features
 ### Roadmap
