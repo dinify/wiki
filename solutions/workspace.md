@@ -82,13 +82,16 @@ Any ES6 or typescript module should be able to import from the `@dinify` workspa
 
 The error message depends on the package. These types of errors pop up after moving dependencies from one package to the other, or adding / removing dependencies on individual packages.
 
-Most recent example:
+Examples:
+cannot import `createStandardAction` from `typesafe-actions` (no exported member)
+
+`react-redux`
 
 ```
 TypeError: Cannot assign to read only property 'exports' of object '#<Object>'
 ```
 
-Solution is to make sure there are no version conflicts between packages, so the version for the dependency in question (inferred from the stack trace of the error) matches in all `package.json` files.
+Solution is to make sure there are no version conflicts between packages, so the version for the dependency in question (inferred from the stack trace of the error) matches in all `package.json` files. The dependency needs to be hoisted to the workspace level.
 
 ### Import error: Module not found
 
@@ -138,7 +141,13 @@ nvm use 10
 
 ### Trusted local certificate on OSX
 
-**Simple and fast:** open the page in Safari, then expand the warning panel about the certificate, and click "visit this website". Since Safari is better integrated with the OS, there is an auth prompt as soon as you visit the site and it automatically adds the certificate to your keychain.
+**Using the CLI (fastest)**  
+From workspace root:  
+```bash
+npm run cert:add
+```
+
+**Using Safari** open the page in Safari, then expand the warning panel about the certificate, and click "visit this website". Since Safari is better integrated with the OS, there is an auth prompt as soon as you visit the site and it automatically adds the certificate to your keychain.
 
 **Manual**
 
